@@ -45,7 +45,7 @@ a:hover{
 }
 .hero {
     height: 400px;
-    background-image: url(img/3065.jpg);
+    background-image: url(3065.jpg);
     /* border-top: 4px solid rgb(255, 160, 71); */
     border-bottom: 4px solid turquoise;
     background-size: cover;
