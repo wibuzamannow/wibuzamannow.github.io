@@ -1,0 +1,83 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(245, 174, 146);
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 960px;
+    border: 3px solid black;
+    margin: auto;
+    background-color: bisque;
+    margin-top: 50px;
+}
+.header {
+    position: fixed;
+    background-color: burlywood;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 5px solid rgb(211, 155, 82);
+}
+.header h1 {
+    width: 50%;
+    float: left;
+    margin: 5px;
+    margin-left: 100px;
+}
+.header ul {
+    margin-right: 100px;
+}
+.header ul li {
+    margin-left: 5px;
+    display: block;
+    margin: 5px;
+    margin-top: 0;
+    float: right;
+}
+.header ul li a {
+    text-decoration: none;
+    padding: 5px;
+}
+a:hover{
+    color: white;
+    background-color: skyblue;
+}
+.hero {
+    height: 400px;
+    background-image: url(img/3065.jpg);
+    /* border-top: 4px solid rgb(255, 160, 71); */
+    border-bottom: 4px solid turquoise;
+    background-size: cover;
+}
+.content {
+    width: 65%;
+    border-right: 2px solid black;
+    margin-left: 10px;
+    float: left;
+    padding-bottom: 10px;
+}
+.contentright {
+    width: 30%;
+    float: right;
+}
+.clear {
+    clear: both;
+}
+#meta {
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.content p {
+    margin-bottom: 20px;
+}
+.footer {
+    height: 40px;
+    background-color: black;
+    padding: 10px;
+}
+#copy {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
